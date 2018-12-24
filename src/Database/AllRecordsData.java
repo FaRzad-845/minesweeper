@@ -28,6 +28,5 @@ public class AllRecordsData {
     public void setName(String name) {
         this.name = name;
     }
-
     
 }
