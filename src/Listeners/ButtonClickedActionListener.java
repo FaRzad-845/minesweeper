@@ -20,6 +20,7 @@ public class ButtonClickedActionListener implements ActionListener {
         Object o = e.getSource();
         JButton clickedBtn = (JButton) o;
         String name = clickedBtn.getName();
+
         if (name.equals("newGame")) {
             MinesweeperGame newGame = new MinesweeperGame();
             newGame.main(newGame, 0);
