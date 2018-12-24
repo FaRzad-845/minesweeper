@@ -34,7 +34,7 @@ import javax.swing.JLabel;
 public class MinesweeperGame extends JFrame {
 
     public JLabel timer;
-    private final String filePath = "C:\\Users\\heram\\Documents\\NetBeansProjects\\JframeCalculater\\src\\Minesweeper\\Setting.Properties";
+    private final String filePath = "YOURPATH\\Setting.Properties";
     private final File file = new File(filePath);
     private JPanel panel1;
     private JPanel panel2;
